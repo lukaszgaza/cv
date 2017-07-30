@@ -1,0 +1,192 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{gaza-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Łukasz}{Gaża}{software developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Wybickiego 1/12
+Kraków, 31-261
+Poland
+~
++48 601 85 68 07
+~
+\href{mailto:lukasz.gaza@gmail.com}{lukasz.gaza@gmail.com}
+\section{languages}
+polish mother tongue
+english fluency
+spanish elementary
+\section{programming skills}
+Java, Scala
+Python, Bash, C, C++
+\section{database skills}
+SQL
+Netezza, PostgreSQL
+MongoDB, HBase (basics)
+\section{BigData skills}
+Spark, Kafka, MapReduce, Hive, Oozie
+\section{certification}
+IBM Pure Data Systems for Analytics
+SPSS Statistics
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\subsection{Full Time}
+
+\begin{entrylist}
+
+\entry
+{04/2016--now}
+{IG}
+{Krakow, Poland}
+{\emph{ BigData Developer}\\
+Responsibilities:
+\begin{itemize}
+\item Implementation of data processing services in microservices architecture in big data ecosystem (Java, Scala, Spark, Kafka, Spring, Hadoop, Oozie)
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{10/2015--03/2016}
+{Luxoft}
+{Krakow, Poland}
+{\emph{Java Software Developer for UBS}\\
+Responsibilities:
+\begin{itemize}
+\item Implementation of trading application (Java, Spring MVC)
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{04/2010--09/2015}
+{IBM (Krakow Software Lab)}
+{Krakow, Poland}
+{\emph{Staff Software Engineer}\\
+Responsibilities:
+\begin{itemize}
+\item Pure Data System for Analytics (Netezza)
+\begin{itemize}
+\item technical lead for backup and restore component (C++, SQL, Python, bash)
+\end{itemize}
+\item Pure Data System forHadoop
+\begin{itemize}
+\item development of component sending data between SQL data warehouse and Hadoop (Java, MapReduce, SQL, Hive)
+\end{itemize}
+\item IBM Tivoli Performance Analyzer
+\begin{itemize}
+\item integration of IBM Tivoli Performance Analyzer with SPSS Statistics to add non-linear forecasting to the product (C++, Java, Python)
+\end{itemize}
+\end{itemize}}
+
+\end{entrylist}
+
+\subsection{Part Time}
+
+\begin{entrylist}
+
+\entry
+{01/2016, 12/2016}
+{Poznan University of Technology}
+{Poznan, Poland}
+{\emph{Trainer}\\
+Responsibilities:
+\begin{itemize}
+\item Two one day trainings of Hadoop ecosystem (Hadoop, HDFS, MapReduce, Hive, Pig)
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{07/2009--03/2010}
+{MTCE Media}
+{Krakow, Poland}
+{\emph{ Software Enginee (intern)}\\
+Responsibilities:
+\begin{itemize}
+\item Implementation of GUI of a configuration tool of Linux-based embedded system called Laneo (fltk, C, C++)
+\item Design and implementation of a tool responsible for remote configuration of Linux-based embedded system (C, C++, UNIX sockets)
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{07/2007--04/2009}
+{AMF}
+{Krakow, Poland}
+{\emph{Software Enginner (intern)}
+Responsibilities:
+\begin{itemize}
+\item Implementation of distributed system for monitoring Windows machine, specifically the components reading data from motherboard sensors and WMI, remote BIOS update, remote disk defragmentation (C\# 2.0, C++)
+\end{itemize}}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+\entry
+{2008--2012}
+{Bachelor of Science {\normalfont in Computer Science}}
+{Cracow University of Science and Technology, Poland}
+{\emph{System for monitoring position of people and vehicles} \\Java, Android, GWT, PostgreSQL, Hibernate, XML-RPC}
+
+%------------------------------------------------
+
+\entry
+{2004-2010}
+{Master of Science {\normalfont in Applied Physics with Computer Modelling}}
+{Cracow University of Technology, Poland}
+{\emph{Calculating characteristics of an airfoil} \\Fortran, Finite Element Method}
+
+
+%------------------------------------------------
+
+\entry
+{2008}
+{Participation in Erasmus Programme, {\normalfont Computer Science}}
+{University of Las Palmas de Gran Canaria, Spain}
+{}
+
+\end{entrylist}
+
+\end{document}
